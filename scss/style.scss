@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.top {
+  height: 100vh;
+  border: 1px solid pink;
+  position: relative;
+}
+
+.projects {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about-content {
+  max-width: 900px;
+  min-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid pink;
+}
+
+.project {
+  border: 1px solid pink;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.project-title {
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 10vw;
+}
