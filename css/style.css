@@ -3,15 +3,19 @@
   font-family: 'Hind', sans-serif;
   color: #6C7A89; }
 
+.background {
+  background-image: url("https://images.unsplash.com/photo-1518515344518-668eb0c53353?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c02d5bd8de279db1a2f74ea59f9283d&auto=format&fit=crop&w=750&q=80"); }
+
 .top {
   height: 100vh;
   position: relative;
   background-color: #f8f7f9;
   border: 2px solid orange;
-  padding: 20px; }
+  padding: 20px;
+  margin: 0 auto; }
 
 .name {
-  color: #6C7A89; }
+  color: orange; }
 
 h2.position {
   position: relative;
@@ -20,7 +24,8 @@ h2.position {
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   white-space: nowrap;
-  overflow: hidden; }
+  overflow: hidden;
+  color: orange; }
 
 /* Animation */
 .position {
