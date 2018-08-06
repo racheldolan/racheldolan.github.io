@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Hind', sans-serif;
-  color: #6C7A89; }
+  font-family: "Poppins", sans-serif; }
 
 .background {
   background-image: url("https://images.unsplash.com/photo-1518515344518-668eb0c53353?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c02d5bd8de279db1a2f74ea59f9283d&auto=format&fit=crop&w=750&q=80"); }
@@ -9,38 +8,18 @@
 .top {
   height: 100vh;
   position: relative;
-  background-color: #f8f7f9;
-  border: 2px solid orange;
+  background-color: #e1dbf5;
   padding: 20px;
-  margin: 0 auto; }
-
-.name {
-  color: orange; }
-
-h2.position {
-  position: relative;
-  top: 50%;
-  width: 24em;
   margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  white-space: nowrap;
-  overflow: hidden;
-  color: orange; }
+  color: #333; }
 
-/* Animation */
+span {
+  color: yellow; }
+
 .position {
-  animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal; }
+  border-bottom: 3px solid yellow;
+  max-width: 60%; }
 
-@keyframes typewriter {
-  from {
-    width: 0; }
-  to {
-    width: 24em; } }
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75); }
-  to {
-    border-right-color: transparent; } }
 .intro {
   max-height: 60vh;
   max-width: 60vw;
@@ -49,13 +28,15 @@ h2.position {
   text-align: left; }
 
 .nav {
-  text-align: right;
-  margin-right: 5vw;
+  margin-left: 70vw;
   font-size: 5vh; }
 
 .nav li a {
-  color: orange;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #333; }
+
+.nav li a:hover {
+  border-bottom: 3px solid yellow; }
 
 .parralax {
   min-height: 30vh;
@@ -75,24 +56,23 @@ h2.position {
   flex-wrap: wrap; }
 
 .work {
-  background-image: url("https://images.unsplash.com/photo-1518515344518-668eb0c53353?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c02d5bd8de279db1a2f74ea59f9283d&auto=format&fit=crop&w=750&q=80");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-color: #e1dbf5; }
 
 .about-title {
-  color: turquoise; }
+  color: #333;
+  border-top: 3px solid #e1dbf5; }
 
 .projects-title {
-  color: pink;
+  color: #333;
   margin: 0 0 0 5vw; }
 
 #about {
   display: flex;
   justify-content: center;
-  position: relative;
-  background-color: #f8f7f9;
-  border: 2px solid turquoise; }
+  position: relative; }
 
 .about-content {
   max-width: 900px;
@@ -101,71 +81,52 @@ h2.position {
   margin: 20px; }
 
 .contact-title {
-  color: orange;
-  padding-left: 5vw; }
+  border-top: 5px solid #e1dbf5; }
 
 .contact {
   display: flex;
-  position: relative;
-  background-color: #f8f7f9;
-  border: 2px solid orange; }
+  position: relative; }
 
 .contact-content {
-  text-align: right;
-  max-width: 900px;
-  min-width: 300px;
-  padding: 20px;
-  margin: 20px; }
+  margin-left: 5vw; }
 
-.contact-photo img {
-  padding: 35px;
-  margin: 20px;
-  max-width: 40vw;
-  max-height: 40vh;
-  text-align: left;
-  border-radius: 50%; }
+.profile-picture {
+  margin-left: 50%; }
+
+.profile-picture img {
+  max-width: 50vw;
+  max-height: 50vh;
+  border-radius: 100%; }
 
 .project {
   max-width: 500px;
   min-width: 300px;
   padding: 20px;
   margin: 20px;
-  background-color: #f8f7f9; }
+  background-color: white;
+  color: #333; }
+
+.project:hover {
+  background-color: #333;
+  color: white; }
 
 .project-title {
   font-size: 20px;
   padding-left: 5px;
-  padding-right: 20px; }
+  padding-right: 20px;
+  max-width: 35%; }
 
-.project-1 {
-  color: yellow; }
+.tech {
+  border-top: 2px solid yellow; }
 
-.project-1:hover {
-  border-bottom: 5px solid yellow; }
-
-.project-2 {
-  color: pink; }
-
-.project-2:hover {
-  border-bottom: 5px solid pink; }
-
-.project-3 {
-  color: turquoise; }
-
-.project-3:hover {
-  border-bottom: 5px solid turquoise; }
-
-.project-4 {
-  color: orange; }
-
-.project-4:hover {
-  border-bottom: 5px solid orange; }
+.project-number:hover {
+  border-bottom: 5px solid white; }
 
 h1 {
-  font-size: 7vw; }
+  font-size: 5vw; }
 
 h2 {
-  font-size: 5vw; }
+  font-size: 3vw; }
 
 ul {
   list-style: none; }
