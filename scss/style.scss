@@ -1,7 +1,8 @@
 @import 'helpers/variables';
+@import 'partials/navbar';
 
 * {
-  box-sizing: border-box;
+  // box-sizing: border-box;
   font-family: $font-primary;
 }
 h1 {
@@ -19,14 +20,14 @@ ul {
 .top {
   height: 100vh;
   position: relative;
-  background-color: #e1dbf5;
+  background-color: $primary;
   padding: 20px;
   margin: 0 auto;
   color: $secondary;
 }
 
 span {
-  color: yellow;
+  color: $quarternary;
 }
 
 .intro {
@@ -36,7 +37,7 @@ span {
   margin-left: 20px;
   text-align: left;
   h2 {
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid $quarternary;
     max-width: 60%;
   }
 }
@@ -51,7 +52,7 @@ span {
 }
 
 .nav li a:hover {
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid $quarternary;
 }
 
 .parralax {
@@ -74,7 +75,7 @@ span {
 }
 
 .work {
-  background-color: #e1dbf5;
+  background-color: $primary;
   h1 {
     color: $secondary;
     margin: 0 0 0 5vw;
@@ -90,7 +91,7 @@ span {
   }
   h1 {
     color: $secondary;
-    border-top: 3px solid #e1dbf5;
+    border-top: 3px solid $primary;
   }
 }
 
@@ -101,17 +102,52 @@ span {
   padding: 20px;
   margin: 20px;
 }
-.skills li i {
+
+#skills {
+  background-color: $secondary;
+  color: $tertiary;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  ul {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 5px;
+  }
+  li i {
+  font-size: 60px;
+  color: $quarternary;
   display: block;
-  font-size: 40px;
-  color: yellow;
+  }
+  img {
+    width: 100px;
+    height: 60px;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: block;
+  }
+  h1 {
+    text-align: left;
+    color: $tertiary;
+    margin-top: 0px;
+    border-top: 3px solid $primary;
+    max-width: 15%;
+    margin-left: 8%;
+  }
 }
+
+
 
 #contact {
   display: flex;
   position: relative;
   h1 {
-      border-top: 5px solid #e1dbf5;
+      border-top: 5px solid $primary;
   }
 }
 
@@ -120,7 +156,7 @@ span {
 }
 
 .profile-picture {
-  margin-left: 50%;
+  margin-left: 30%;
   img {
     max-width: 50vw;
     max-height: 50vh;
@@ -139,7 +175,7 @@ span {
     border-bottom: 5px solid $tertiary;
   }
   h5 {
-    border-top: 2px solid yellow;
+    border-top: 2px solid $quarternary;
     font-size: 18px;
   }
 }
