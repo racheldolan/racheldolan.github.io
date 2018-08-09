@@ -2,7 +2,7 @@
 @import 'partials/navbar';
 
 * {
-  // box-sizing: border-box;
+  box-sizing: border-box;
   font-family: $font-primary;
 }
 h1 {
@@ -119,6 +119,10 @@ span {
     text-align: center;
     margin: 5px;
   }
+  li:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
   li i {
   font-size: 60px;
   color: $quarternary;
@@ -141,11 +145,30 @@ span {
   }
 }
 
+// skills animation
 
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
 
 #contact {
   display: flex;
   position: relative;
+  background-color: $secondary;
+  color: $tertiary;
   h1 {
       border-top: 5px solid $primary;
   }
@@ -171,16 +194,13 @@ span {
   margin: 20px;
   background-color: $tertiary;
   color: $secondary;
-  h1:hover {
-    border-bottom: 5px solid $tertiary;
-  }
   h5 {
     border-top: 2px solid $quarternary;
     font-size: 18px;
   }
 }
 
-.project:hover {
-  background-color: $secondary;
-  color: $tertiary;
-}
+// .project:hover {
+//   background-color: $secondary;
+//   color: $tertiary;
+// }
