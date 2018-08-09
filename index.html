@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="./css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link rel="icon" href="./assets/logo.png">
   <script type="text/javascript" src="./js/app.js"></script>
 </head>
@@ -25,7 +26,7 @@
           <span></span>
           <ul id="menu">
             <li><a href="#about">about</a></li>
-            <li><a href="#projects">projects</a></li>
+            <li><a href="#project-title">projects</a></li>
             <li><a href="#skills">skills</a></li>
             <li><a href="#contact">contact</a></li>
           </ul>
@@ -40,10 +41,11 @@
     <h1>about<span>.</span></h1>
     <div class="about-content">
       <p>My interest in coding started a few years ago after a friend of mine changed careers and worked as a Junior Back End Developer. I was curious to know what it was all about, and after trying out some online resources I became really attracted to the problem solving aspect of coding, and pretty quickly I was playing around with code a lot in my spare time.
-        I started coding more and more in my free time, and exploring different resources.</p> <br />
+        I started coding more and more in my free time, and exploring different resources.</p>
         <p>One thing that I really loved when I started discovering more about the industry is its open source nature. I was surprised about how many resources and tools were available for free, and how keen people are to give you advice and share their knowledge.
           As I’m right at the start of my career in development it’s really important to me to continue to learn to work in an environment that supports my development.
         </p>
+        <p>Currently I'm working on a website for a friend's business, Proven Goods Co., as well as daily challenges on Wes Bos' Javascript30.</p>
       </div>
     </div>
 
@@ -84,33 +86,41 @@
       <div class="parralax"></div>
 
     <div class="work">
-        <h1 id="projects">projects<span>.</span></h1>
+        <h1 id="project-title">projects<span>.</span></h1>
 
       <div class="projects">
-        <div class="project">
-          <h2>project</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h5>HTML | HTML | HTML</h5>
+        <div class="project chapter">
+          <h2>Chapter</h2>
+            <p>A MERN stack application that allows a user to create and/or discover online book groups and participate in discussion around their favourite books.
+              The app uses image recognition through the Google Vision API which allows the user to post a picture of a book and receive websites to buy the book or read reviews.</p>
+              <p><strong>Highlight</strong> was working on the app was getting the API up and running and the response formatted on the front end. I also really enjoyed using React to build a component-based app.</p>
+            <h5 class="tech">HTML5 | CSS3 (SASS) | Mongoose | MongoDB | React | Node.js | Express | RESTful API | Git | Heroku</h5>
         </div>
 
-        <div class="project">
-          <h2>project</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h5>HTML | HTML | HTML</h5>
+        <div class="project in-my-fridge">
+          <h2>What's In My Fridge?</h2>
+            <p>A MEAN stack application built over one week, planned using wireframes, with team contributions using GitHub. The app allows a user to search for recipes based on the ingredients they have at home already,
+               from data supplied through a third party API, Spoonacular. My role involved API functionality, including user input as search query, running server side tests on the API, and displaying data on the search page and the individual recipe pages.
+                I was also involved in the design, and was responsible for managing the project.</p>
+            <p><strong>Highlight</strong> was working with a team. Coding had previously been something I'd only done alone so I was unsure about how to assign responsibilities.
+            It turned out to be a great experience that I learnt a lot from.</p>
+            <h5 class="tech">HTML5 | CSS3 (SASS) | Mongoose | MongoDB | Angular.js | Node.js | Express | RESTful API | Git | Heroku</h5>
         </div>
       </div>
 
       <div class="projects">
-        <div class="project">
-          <h2>project</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <h5>HTML | HTML | HTML</h5>
+        <div class="project canvas">
+          <h2>Canvas</h2>
+            <p>We had one week to create a full-stack RESTful application using Express which includes token-based authentication and has a Mongo database using the Mongoose ORM. I created an Instagram-style platform for artists to showcase their work which was deployed on Heroku.</p>
+            <p><strong>Highlight</strong> was using session-based authentication for the first time.</p>
+            <h5 class="tech">HTML5 | CSS3 (SASS) | Mongoose | MongoDB | EJS | Node.js | Express | RESTful API | Git | Heroku</h5>
         </div>
 
-        <div class="project">
-          <h2>project</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <h5 class="tech">HTML | HTML | HTML</h5>
+        <div class="project space-invaders">
+          <h2>Space Invaders</h2>
+            <p>After 3 weeks on the course we had one week to create a game using semantic HTML, JavaScript, CSS (Sass) and jQuery library, which was then hosted online via GitHub. I recreated a version of the classic arcade game Space Invaders which relies heavily on collision. </p>
+            <p><strong>Highlight</strong> was cracking collision detection!</p>
+            <h5 class="tech">HTML5 | CSS3 (SASS) | jQuery | vanilla JavaScript | GitHub</h5>
         </div>
       </div>
     </div>
@@ -122,10 +132,10 @@
       <div class="contact-content">
         <h1>contact<span>.</span></h1>
         <ul>
-          <li>Rachel Dolan</li>
-          <li>racheldolan1@gmail.com</li>
-          <li>github</li>
-          <li>linkedin</li>
+          <li><i class="far fa-smile"></i> Rachel Dolan</li>
+          <li><a href="mailto:racheldolan1@gmail.com"><i class="fas fa-envelope-square"></i> Mail to: racheldolan1@gmail.com</a></li>
+          <li><a href="https://github.com/racheldolan" target="_blank"><i class="fab fa-github-square"></i> GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/rachel-s-dolan/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
         </ul>
       </div>
 

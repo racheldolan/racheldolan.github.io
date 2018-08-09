@@ -63,25 +63,6 @@ span {
   background-attachment: fixed;
 }
 
-.projects {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0 auto;
-  flex-wrap: wrap;
-}
-
-.work {
-  background-color: $primary;
-  h1 {
-    color: $secondary;
-    margin: 0 0 0 5vw;
-  }
-}
-
 #about {
   display: flex;
   justify-content: center;
@@ -164,6 +145,92 @@ span {
   }
 }
 
+.work {
+  background-color: $primary;
+  h1 {
+    color: $secondary;
+    margin: 0 0 0 5vw;
+    padding-top: 20px;
+  }
+}
+
+.projects {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.project {
+  max-width: 500px;
+  min-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: $tertiary;
+  color: $secondary;
+  p {
+    padding-top: 10px;
+  }
+  h2 {
+    min-height: 54px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  h5 {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    border-top: 2px solid $quarternary;
+  }
+}
+
+.space-invaders {
+  h2 {
+  font-family: Cosmic alien;
+  color: $secondary;
+  font-size: 7vh;
+  }
+  h5 {
+    margin-top: 50px;
+  }
+}
+
+.canvas {
+  h2 {
+  font-family: 'Pacifico', cursive;
+  color: $secondary;
+  font-size: 8vh;
+  }
+}
+
+.in-my-fridge {
+  h2 {
+  font-family: 'Leckerli One', cursive;
+  color: $secondary;
+  font-size: 7vh;
+  }
+  p {
+    padding-top: 30px;
+  }
+}
+
+.chapter {
+  h2 {
+  font-family: 'Overpass Mono', monospace;
+  color: $secondary;
+  font-size: 8vh;
+  padding-bottom: 30px;
+  }
+  h5 {
+    margin-top: 125px;
+  }
+}
+
+
 #contact {
   display: flex;
   position: relative;
@@ -171,6 +238,16 @@ span {
   color: $tertiary;
   h1 {
       border-top: 5px solid $primary;
+  }
+  li {
+    font-size: 20px;
+  }
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  i {
+    color: yellow;
   }
 }
 
@@ -186,21 +263,3 @@ span {
     border-radius: 100%;
   }
 }
-
-.project {
-  max-width: 500px;
-  min-width: 300px;
-  padding: 20px;
-  margin: 20px;
-  background-color: $tertiary;
-  color: $secondary;
-  h5 {
-    border-top: 2px solid $quarternary;
-    font-size: 18px;
-  }
-}
-
-// .project:hover {
-//   background-color: $secondary;
-//   color: $tertiary;
-// }

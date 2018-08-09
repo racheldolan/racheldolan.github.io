@@ -49,22 +49,6 @@ span {
   background-image: url("https://images.unsplash.com/photo-1518515344518-668eb0c53353?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c02d5bd8de279db1a2f74ea59f9283d&auto=format&fit=crop&w=750&q=80");
   background-attachment: fixed; }
 
-.projects {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 0 auto;
-  flex-wrap: wrap; }
-
-.work {
-  background-color: #e1dbf5; }
-  .work h1 {
-    color: #333;
-    margin: 0 0 0 5vw; }
-
 #about {
   display: flex;
   justify-content: center;
@@ -126,6 +110,69 @@ span {
   to {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
+.work {
+  background-color: #e1dbf5; }
+  .work h1 {
+    color: #333;
+    margin: 0 0 0 5vw;
+    padding-top: 20px; }
+
+.projects {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap; }
+
+.project {
+  max-width: 500px;
+  min-width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  color: #333; }
+  .project p {
+    padding-top: 10px; }
+  .project h2 {
+    min-height: 54px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .project h5 {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+    border-top: 2px solid yellow; }
+
+.space-invaders h2 {
+  font-family: Cosmic alien;
+  color: #333;
+  font-size: 7vh; }
+.space-invaders h5 {
+  margin-top: 50px; }
+
+.canvas h2 {
+  font-family: 'Pacifico', cursive;
+  color: #333;
+  font-size: 8vh; }
+
+.in-my-fridge h2 {
+  font-family: 'Leckerli One', cursive;
+  color: #333;
+  font-size: 7vh; }
+.in-my-fridge p {
+  padding-top: 30px; }
+
+.chapter h2 {
+  font-family: 'Overpass Mono', monospace;
+  color: #333;
+  font-size: 8vh;
+  padding-bottom: 30px; }
+.chapter h5 {
+  margin-top: 125px; }
+
 #contact {
   display: flex;
   position: relative;
@@ -133,6 +180,13 @@ span {
   color: white; }
   #contact h1 {
     border-top: 5px solid #e1dbf5; }
+  #contact li {
+    font-size: 20px; }
+  #contact li a {
+    text-decoration: none;
+    color: white; }
+  #contact i {
+    color: yellow; }
 
 .contact-content {
   margin-left: 5vw; }
@@ -143,16 +197,5 @@ span {
     max-width: 50vw;
     max-height: 50vh;
     border-radius: 100%; }
-
-.project {
-  max-width: 500px;
-  min-width: 300px;
-  padding: 20px;
-  margin: 20px;
-  background-color: white;
-  color: #333; }
-  .project h5 {
-    border-top: 2px solid yellow;
-    font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
