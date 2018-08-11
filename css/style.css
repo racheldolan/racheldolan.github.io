@@ -1,3 +1,28 @@
+.nav {
+  background-color: #333;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin-top: 9px;
+  font-size: 4vh; }
+  .nav li a {
+    text-decoration: none;
+    color: white; }
+
+.nav #menu li a:hover {
+  border-bottom: 3px solid yellow; }
+
+.nav #menu {
+  margin-top: 100%; }
+
+.nav #logos li a:hover {
+  color: yellow; }
+
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif; }
@@ -13,9 +38,7 @@ ul {
 
 .top {
   height: 100vh;
-  position: relative;
   background-color: #e1dbf5;
-  padding: 20px;
   margin: 0 auto;
   color: #333; }
 
@@ -31,16 +54,6 @@ span {
   .intro h2 {
     border-bottom: 3px solid yellow;
     max-width: 60%; }
-
-.nav {
-  margin-left: 70vw;
-  font-size: 5vh; }
-  .nav li a {
-    text-decoration: none;
-    color: #333; }
-
-.nav li a:hover {
-  border-bottom: 3px solid yellow; }
 
 .parralax {
   min-height: 30vh;

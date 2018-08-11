@@ -19,9 +19,9 @@ ul {
 
 .top {
   height: 100vh;
-  position: relative;
+  // position: relative;
   background-color: $primary;
-  padding: 20px;
+  // padding: 0px 20px 20px 20px;
   margin: 0 auto;
   color: $secondary;
 }
@@ -40,19 +40,6 @@ span {
     border-bottom: 3px solid $quarternary;
     max-width: 60%;
   }
-}
-
-.nav {
-  margin-left: 70vw;
-  font-size: 5vh;
-  li a {
-    text-decoration: none;
-    color: $secondary;
-  }
-}
-
-.nav li a:hover {
-  border-bottom: 3px solid $quarternary;
 }
 
 .parralax {
@@ -75,7 +62,6 @@ span {
     border-top: 3px solid $primary;
   }
 }
-
 
 .about-content {
   max-width: 900px;
