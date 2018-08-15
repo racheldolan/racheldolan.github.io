@@ -75,7 +75,15 @@ span {
     font-family: "Open Sans", sans-serif; }
   #about h1 {
     color: #333;
-    border-top: 3px solid #e1dbf5; }
+    border-top: 3px solid #e1dbf5;
+    margin-left: 8%; }
+  #about .profile-picture img {
+    max-width: 80%;
+    max-height: 80%;
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 100%;
+    margin-top: 20%; }
 
 .about-content {
   max-width: 900px;
@@ -134,7 +142,8 @@ span {
   .work h1 {
     color: #333;
     margin: 0 0 0 5vw;
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-left: 2%; }
 
 .projects {
   padding-top: 40px;
@@ -165,11 +174,39 @@ span {
     padding-top: 10px;
     border-top: 2px solid yellow; }
 
+.space-invaders h2 {
+  font-family: Cosmic alien;
+  color: #333;
+  font-size: 7vh; }
+.space-invaders h5 {
+  margin-top: 50px; }
+
+.canvas h2 {
+  font-family: 'Pacifico', cursive;
+  color: #333;
+  font-size: 8vh; }
+
+.in-my-fridge h2 {
+  font-family: 'Leckerli One', cursive;
+  color: #333;
+  font-size: 7vh; }
+.in-my-fridge p {
+  padding-top: 30px; }
+
+.chapter h2 {
+  font-family: 'Overpass Mono', monospace;
+  color: #333;
+  font-size: 8vh;
+  padding-bottom: 30px; }
+.chapter h5 {
+  margin-top: 125px; }
+
 #contact {
   display: flex;
   position: relative;
   background-color: #333;
-  color: white; }
+  color: white;
+  padding-left: 8%; }
   #contact h1 {
     border-top: 5px solid #e1dbf5; }
   #contact li {
@@ -179,13 +216,6 @@ span {
     color: white; }
   #contact i {
     color: yellow; }
-  #contact img {
-    max-width: 100%;
-    max-height: 100%;
-    min-width: 25%;
-    min-height: 25%;
-    border-radius: 100%;
-    margin-top: 10%; }
   #contact ul {
     padding-left: 0px; }
 
@@ -196,9 +226,9 @@ span {
     .project p {
       font-size: 15px; }
 
-  #contact img {
-    display: block;
-    text-align: center; }
+  #about img {
+    display: flex;
+    width: 100%; }
 
   .top {
     max-height: 600px; }
