@@ -81,7 +81,7 @@ span {
     font-family: "Open Sans", sans-serif; }
   #about h1 {
     color: #333;
-    border-top: 3px solid #e1dbf5;
+    border-top: 5px solid #e1dbf5;
     margin-left: 8%; }
   #about .profile-picture img {
     max-width: 80%;
@@ -130,7 +130,7 @@ span {
     text-align: left;
     color: white;
     margin-top: 0px;
-    border-top: 3px solid #e1dbf5;
+    border-top: 5px solid #e1dbf5;
     max-width: 15%;
     margin-left: 8%; }
 

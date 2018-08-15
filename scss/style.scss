@@ -70,7 +70,7 @@ span {
   }
   h1 {
     color: $secondary;
-    border-top: 3px solid $primary;
+    border-top: 5px solid $primary;
     margin-left: 8%;
   }
   .profile-picture img {
@@ -128,14 +128,13 @@ span {
     text-align: left;
     color: $tertiary;
     margin-top: 0px;
-    border-top: 3px solid $primary;
+    border-top: 5px solid $primary;
     max-width: 15%;
     margin-left: 8%;
   }
 }
 
 // skills animation
-
 @keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
