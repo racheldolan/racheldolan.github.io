@@ -5,6 +5,15 @@
   box-sizing: border-box;
   font-family: $font-primary;
 }
+
+html {
+  background-color: $quarternary;
+}
+
+body {
+  margin: 0px;
+}
+
 h1 {
   font-size: 5vw;
 }
@@ -39,7 +48,7 @@ span {
   text-align: left;
   h2 {
     border-bottom: 3px solid $quarternary;
-    max-width: 40%;
+    max-width: 38%;
   }
 }
 
@@ -55,6 +64,7 @@ span {
   display: flex;
   justify-content: center;
   position: relative;
+  background-color: $tertiary;
   p {
     font-family: $font-secondary;
   }
@@ -66,9 +76,10 @@ span {
   .profile-picture img {
     max-width: 80%;
     max-height: 80%;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
     border-radius: 100%;
+    display: flex;
     margin-top: 20%;
   }
 }
@@ -190,10 +201,14 @@ span {
   h2 {
   font-family: Cosmic alien;
   color: $secondary;
-  font-size: 7vh;
+  font-size: 40px;
+  margin-top: 50px;
   }
   h5 {
     margin-top: 50px;
+  }
+  .highlight {
+    margin-top: 45px;
   }
 }
 
@@ -201,7 +216,10 @@ span {
   h2 {
   font-family: 'Pacifico', cursive;
   color: $secondary;
-  font-size: 8vh;
+  font-size: 40px;
+  }
+  .highlight {
+    margin-top: 20px;
   }
 }
 
@@ -209,10 +227,16 @@ span {
   h2 {
   font-family: 'Leckerli One', cursive;
   color: $secondary;
-  font-size: 7vh;
+  font-size: 40px;
   }
   p {
     padding-top: 30px;
+  }
+  .highlight {
+    margin-top: 30px;
+  }
+  h5 {
+    margin-top: 30px;
   }
 }
 
@@ -220,14 +244,14 @@ span {
   h2 {
   font-family: 'Overpass Mono', monospace;
   color: $secondary;
-  font-size: 8vh;
+  font-size: 40px;
   padding-bottom: 30px;
+  margin-top: 50px;
   }
-  h5 {
-    margin-top: 125px;
+  .highlight {
+    margin-top: 52px;
   }
 }
-
 
 #contact {
   display: flex;
@@ -246,7 +270,7 @@ span {
     color: white;
   }
   i {
-    color: yellow;
+    color: $quarternary;
   }
   ul {
     padding-left: 0px;
@@ -261,9 +285,11 @@ span {
       font-size: 15px;
     }
   }
-    #about img {
-      display: flex;
-      width: 100%;
+    #about .profile-picture img {
+      display: none;
+    }
+    .about-content {
+      min-width: 400px;
     }
     .top {
       max-height: 600px;
@@ -273,5 +299,8 @@ span {
       ul {
         padding-left: 3px;
       }
+    }
+    #contact i {
+      display: none;
     }
 }
